@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E1C06CE26B6D2C000C6A7A2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1C06CD26B6D2C000C6A7A2 /* main.swift */; };
+		3EBB476C26B7CF0900148112 /* libc_api_connector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB475F26B7CEFF00148112 /* libc_api_connector.a */; };
+		3EBB476D26B7CF0900148112 /* libSwiftySyncAuthorization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB476826B7CEFF00148112 /* libSwiftySyncAuthorization.a */; };
+		3EBB476E26B7CF0900148112 /* libSwiftySyncStorage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB475526B7CEFE00148112 /* libSwiftySyncStorage.a */; };
+		3EBB476F26B7CF0900148112 /* libSwiftySyncCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB475726B7CEFE00148112 /* libSwiftySyncCommon.a */; };
+		3EBB477026B7CF0900148112 /* libSwiftySyncUniversalClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB475E26B7CEFF00148112 /* libSwiftySyncUniversalClient.a */; };
+		3EBB477126B7CF0900148112 /* libboost_random.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB475B26B7CEFE00148112 /* libboost_random.a */; };
+		3EBB477226B7CF0900148112 /* libboost_coroutine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB476626B7CEFF00148112 /* libboost_coroutine.a */; };
+		3EBB477326B7CF0900148112 /* libboost_context.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB475626B7CEFE00148112 /* libboost_context.a */; };
+		3EBB477426B7CF0900148112 /* libboost_thread.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB476426B7CEFF00148112 /* libboost_thread.a */; };
+		3EBB477526B7CF0900148112 /* libboost_chrono.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB475426B7CEFE00148112 /* libboost_chrono.a */; };
+		3EBB477626B7CF0900148112 /* libboost_date_time.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB476226B7CEFF00148112 /* libboost_date_time.a */; };
+		3EBB477726B7CF0900148112 /* libboost_math_tr1f.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB476326B7CEFF00148112 /* libboost_math_tr1f.a */; };
+		3EBB477826B7CF0900148112 /* libboost_math_tr1l.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB475326B7CEFE00148112 /* libboost_math_tr1l.a */; };
+		3EBB477926B7CF0900148112 /* libboost_math_c99.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB475A26B7CEFE00148112 /* libboost_math_c99.a */; };
+		3EBB477A26B7CF0900148112 /* libboost_math_c99l.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB476B26B7CEFF00148112 /* libboost_math_c99l.a */; };
+		3EBB477B26B7CF0900148112 /* libboost_math_c99f.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB475C26B7CEFE00148112 /* libboost_math_c99f.a */; };
+		3EBB477C26B7CF0A00148112 /* libboost_math_tr1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB476A26B7CEFF00148112 /* libboost_math_tr1.a */; };
+		3EBB477D26B7CF0A00148112 /* libboost_exception.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB475D26B7CEFF00148112 /* libboost_exception.a */; };
+		3EBB477E26B7CF0A00148112 /* libboost_atomic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB475926B7CEFE00148112 /* libboost_atomic.a */; };
+		3EBB477F26B7CF0A00148112 /* libboost_container.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB476526B7CEFF00148112 /* libboost_container.a */; };
+		3EBB478026B7CF0A00148112 /* libboost_regex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB476026B7CEFF00148112 /* libboost_regex.a */; };
+		3EBB478126B7CF0A00148112 /* libboost_system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB475826B7CEFE00148112 /* libboost_system.a */; };
+		3EBB478226B7CF0A00148112 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB476726B7CEFF00148112 /* libssl.a */; };
+		3EBB478326B7CF0A00148112 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB476126B7CEFF00148112 /* libcrypto.a */; };
+		3EBB478426B7CF0A00148112 /* libCodable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB476926B7CEFF00148112 /* libCodable.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E1C06C826B6D2C000C6A7A2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E1C06CA26B6D2C000C6A7A2 /* SwiftySyncNative */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftySyncNative; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1C06CD26B6D2C000C6A7A2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3EBB475326B7CEFE00148112 /* libboost_math_tr1l.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_math_tr1l.a; path = lib/libboost_math_tr1l.a; sourceTree = "<group>"; };
+		3EBB475426B7CEFE00148112 /* libboost_chrono.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_chrono.a; path = lib/libboost_chrono.a; sourceTree = "<group>"; };
+		3EBB475526B7CEFE00148112 /* libSwiftySyncStorage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSwiftySyncStorage.a; path = lib/libSwiftySyncStorage.a; sourceTree = "<group>"; };
+		3EBB475626B7CEFE00148112 /* libboost_context.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_context.a; path = lib/libboost_context.a; sourceTree = "<group>"; };
+		3EBB475726B7CEFE00148112 /* libSwiftySyncCommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSwiftySyncCommon.a; path = lib/libSwiftySyncCommon.a; sourceTree = "<group>"; };
+		3EBB475826B7CEFE00148112 /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = lib/libboost_system.a; sourceTree = "<group>"; };
+		3EBB475926B7CEFE00148112 /* libboost_atomic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_atomic.a; path = lib/libboost_atomic.a; sourceTree = "<group>"; };
+		3EBB475A26B7CEFE00148112 /* libboost_math_c99.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_math_c99.a; path = lib/libboost_math_c99.a; sourceTree = "<group>"; };
+		3EBB475B26B7CEFE00148112 /* libboost_random.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_random.a; path = lib/libboost_random.a; sourceTree = "<group>"; };
+		3EBB475C26B7CEFE00148112 /* libboost_math_c99f.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_math_c99f.a; path = lib/libboost_math_c99f.a; sourceTree = "<group>"; };
+		3EBB475D26B7CEFF00148112 /* libboost_exception.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_exception.a; path = lib/libboost_exception.a; sourceTree = "<group>"; };
+		3EBB475E26B7CEFF00148112 /* libSwiftySyncUniversalClient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSwiftySyncUniversalClient.a; path = lib/libSwiftySyncUniversalClient.a; sourceTree = "<group>"; };
+		3EBB475F26B7CEFF00148112 /* libc_api_connector.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libc_api_connector.a; path = lib/libc_api_connector.a; sourceTree = "<group>"; };
+		3EBB476026B7CEFF00148112 /* libboost_regex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_regex.a; path = lib/libboost_regex.a; sourceTree = "<group>"; };
+		3EBB476126B7CEFF00148112 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = lib/libcrypto.a; sourceTree = "<group>"; };
+		3EBB476226B7CEFF00148112 /* libboost_date_time.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_date_time.a; path = lib/libboost_date_time.a; sourceTree = "<group>"; };
+		3EBB476326B7CEFF00148112 /* libboost_math_tr1f.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_math_tr1f.a; path = lib/libboost_math_tr1f.a; sourceTree = "<group>"; };
+		3EBB476426B7CEFF00148112 /* libboost_thread.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_thread.a; path = lib/libboost_thread.a; sourceTree = "<group>"; };
+		3EBB476526B7CEFF00148112 /* libboost_container.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_container.a; path = lib/libboost_container.a; sourceTree = "<group>"; };
+		3EBB476626B7CEFF00148112 /* libboost_coroutine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_coroutine.a; path = lib/libboost_coroutine.a; sourceTree = "<group>"; };
+		3EBB476726B7CEFF00148112 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = lib/libssl.a; sourceTree = "<group>"; };
+		3EBB476826B7CEFF00148112 /* libSwiftySyncAuthorization.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSwiftySyncAuthorization.a; path = lib/libSwiftySyncAuthorization.a; sourceTree = "<group>"; };
+		3EBB476926B7CEFF00148112 /* libCodable.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCodable.a; path = lib/libCodable.a; sourceTree = "<group>"; };
+		3EBB476A26B7CEFF00148112 /* libboost_math_tr1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_math_tr1.a; path = lib/libboost_math_tr1.a; sourceTree = "<group>"; };
+		3EBB476B26B7CEFF00148112 /* libboost_math_c99l.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_math_c99l.a; path = lib/libboost_math_c99l.a; sourceTree = "<group>"; };
+		3EE0932D26B6DDD100279C55 /* SwiftySyncNative-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftySyncNative-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E1C06C726B6D2C000C6A7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBB477826B7CF0900148112 /* libboost_math_tr1l.a in Frameworks */,
+				3EBB478026B7CF0A00148112 /* libboost_regex.a in Frameworks */,
+				3EBB478326B7CF0A00148112 /* libcrypto.a in Frameworks */,
+				3EBB478126B7CF0A00148112 /* libboost_system.a in Frameworks */,
+				3EBB477926B7CF0900148112 /* libboost_math_c99.a in Frameworks */,
+				3EBB477C26B7CF0A00148112 /* libboost_math_tr1.a in Frameworks */,
+				3EBB477126B7CF0900148112 /* libboost_random.a in Frameworks */,
+				3EBB477626B7CF0900148112 /* libboost_date_time.a in Frameworks */,
+				3EBB477B26B7CF0900148112 /* libboost_math_c99f.a in Frameworks */,
+				3EBB476D26B7CF0900148112 /* libSwiftySyncAuthorization.a in Frameworks */,
+				3EBB477F26B7CF0A00148112 /* libboost_container.a in Frameworks */,
+				3EBB477526B7CF0900148112 /* libboost_chrono.a in Frameworks */,
+				3EBB478426B7CF0A00148112 /* libCodable.a in Frameworks */,
+				3EBB476C26B7CF0900148112 /* libc_api_connector.a in Frameworks */,
+				3EBB477326B7CF0900148112 /* libboost_context.a in Frameworks */,
+				3EBB477026B7CF0900148112 /* libSwiftySyncUniversalClient.a in Frameworks */,
+				3EBB476E26B7CF0900148112 /* libSwiftySyncStorage.a in Frameworks */,
+				3EBB478226B7CF0A00148112 /* libssl.a in Frameworks */,
+				3EBB476F26B7CF0900148112 /* libSwiftySyncCommon.a in Frameworks */,
+				3EBB477226B7CF0900148112 /* libboost_coroutine.a in Frameworks */,
+				3EBB477A26B7CF0900148112 /* libboost_math_c99l.a in Frameworks */,
+				3EBB477E26B7CF0A00148112 /* libboost_atomic.a in Frameworks */,
+				3EBB477D26B7CF0A00148112 /* libboost_exception.a in Frameworks */,
+				3EBB477726B7CF0900148112 /* libboost_math_tr1f.a in Frameworks */,
+				3EBB477426B7CF0900148112 /* libboost_thread.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E1C06C126B6D2C000C6A7A2 = {
+			isa = PBXGroup;
+			children = (
+				3E1C06CC26B6D2C000C6A7A2 /* SwiftySyncNative */,
+				3E1C06CB26B6D2C000C6A7A2 /* Products */,
+				3EE0932926B6DD1100279C55 /* Frameworks */,
+				3EE0932D26B6DDD100279C55 /* SwiftySyncNative-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		3E1C06CB26B6D2C000C6A7A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E1C06CA26B6D2C000C6A7A2 /* SwiftySyncNative */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E1C06CC26B6D2C000C6A7A2 /* SwiftySyncNative */ = {
+			isa = PBXGroup;
+			children = (
+				3E1C06CD26B6D2C000C6A7A2 /* main.swift */,
+			);
+			path = SwiftySyncNative;
+			sourceTree = "<group>";
+		};
+		3EE0932926B6DD1100279C55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EBB475926B7CEFE00148112 /* libboost_atomic.a */,
+				3EBB475426B7CEFE00148112 /* libboost_chrono.a */,
+				3EBB476526B7CEFF00148112 /* libboost_container.a */,
+				3EBB475626B7CEFE00148112 /* libboost_context.a */,
+				3EBB476626B7CEFF00148112 /* libboost_coroutine.a */,
+				3EBB476226B7CEFF00148112 /* libboost_date_time.a */,
+				3EBB475D26B7CEFF00148112 /* libboost_exception.a */,
+				3EBB475A26B7CEFE00148112 /* libboost_math_c99.a */,
+				3EBB475C26B7CEFE00148112 /* libboost_math_c99f.a */,
+				3EBB476B26B7CEFF00148112 /* libboost_math_c99l.a */,
+				3EBB476A26B7CEFF00148112 /* libboost_math_tr1.a */,
+				3EBB476326B7CEFF00148112 /* libboost_math_tr1f.a */,
+				3EBB475326B7CEFE00148112 /* libboost_math_tr1l.a */,
+				3EBB475B26B7CEFE00148112 /* libboost_random.a */,
+				3EBB476026B7CEFF00148112 /* libboost_regex.a */,
+				3EBB475826B7CEFE00148112 /* libboost_system.a */,
+				3EBB476426B7CEFF00148112 /* libboost_thread.a */,
+				3EBB475F26B7CEFF00148112 /* libc_api_connector.a */,
+				3EBB476926B7CEFF00148112 /* libCodable.a */,
+				3EBB476126B7CEFF00148112 /* libcrypto.a */,
+				3EBB476726B7CEFF00148112 /* libssl.a */,
+				3EBB476826B7CEFF00148112 /* libSwiftySyncAuthorization.a */,
+				3EBB475726B7CEFE00148112 /* libSwiftySyncCommon.a */,
+				3EBB475526B7CEFE00148112 /* libSwiftySyncStorage.a */,
+				3EBB475E26B7CEFF00148112 /* libSwiftySyncUniversalClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E1C06C926B6D2C000C6A7A2 /* SwiftySyncNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E1C06D126B6D2C000C6A7A2 /* Build configuration list for PBXNativeTarget "SwiftySyncNative" */;
+			buildPhases = (
+				3E1C06C626B6D2C000C6A7A2 /* Sources */,
+				3E1C06C726B6D2C000C6A7A2 /* Frameworks */,
+				3E1C06C826B6D2C000C6A7A2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftySyncNative;
+			productName = SwiftySyncNative;
+			productReference = 3E1C06CA26B6D2C000C6A7A2 /* SwiftySyncNative */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E1C06C226B6D2C000C6A7A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3E1C06C926B6D2C000C6A7A2 = {
+						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
+					};
+				};
+			};
+			buildConfigurationList = 3E1C06C526B6D2C000C6A7A2 /* Build configuration list for PBXProject "SwiftySyncNative" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E1C06C126B6D2C000C6A7A2;
+			productRefGroup = 3E1C06CB26B6D2C000C6A7A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E1C06C926B6D2C000C6A7A2 /* SwiftySyncNative */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E1C06C626B6D2C000C6A7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1C06CE26B6D2C000C6A7A2 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3E1C06CF26B6D2C000C6A7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E1C06D026B6D2C000C6A7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3E1C06D226B6D2C000C6A7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4TJY8UCM7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/SwiftySyncUniversalClient/websocketpp/**",
+					"${SRCROOT}/Usage",
+					"${SRCROOT}/",
+					"SRCROOT}/SwiftySyncUniversalClient",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftySyncNative-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3E1C06D326B6D2C000C6A7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4TJY8UCM7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/SwiftySyncUniversalClient/websocketpp/**",
+					"${SRCROOT}/Usage",
+					"${SRCROOT}/",
+					"SRCROOT}/SwiftySyncUniversalClient",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftySyncNative-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E1C06C526B6D2C000C6A7A2 /* Build configuration list for PBXProject "SwiftySyncNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1C06CF26B6D2C000C6A7A2 /* Debug */,
+				3E1C06D026B6D2C000C6A7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E1C06D126B6D2C000C6A7A2 /* Build configuration list for PBXNativeTarget "SwiftySyncNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1C06D226B6D2C000C6A7A2 /* Debug */,
+				3E1C06D326B6D2C000C6A7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E1C06C226B6D2C000C6A7A2 /* Project object */;
+}
