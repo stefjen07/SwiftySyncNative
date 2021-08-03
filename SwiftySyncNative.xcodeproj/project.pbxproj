@@ -35,6 +35,7 @@
 		3EBB47B826B8706300148112 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB479A26B8705800148112 /* libssl.a */; };
 		3EBB47B926B8706300148112 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB478F26B8705700148112 /* libcrypto.a */; };
 		3EBB47BA26B8706300148112 /* libCodable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB478726B8705700148112 /* libCodable.a */; };
+		3EBB47BC26B94C8100148112 /* NativeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB47BB26B94C8100148112 /* NativeClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +80,7 @@
 		3EBB479D26B8705800148112 /* libSwiftySyncUniversalClient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSwiftySyncUniversalClient.a; path = lib/libSwiftySyncUniversalClient.a; sourceTree = "<group>"; };
 		3EBB479E26B8705800148112 /* libboost_math_tr1f.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_math_tr1f.a; path = lib/libboost_math_tr1f.a; sourceTree = "<group>"; };
 		3EBB479F26B8705800148112 /* libboost_math_tr1l.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_math_tr1l.a; path = lib/libboost_math_tr1l.a; sourceTree = "<group>"; };
+		3EBB47BB26B94C8100148112 /* NativeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeClient.swift; sourceTree = "<group>"; };
 		3EE0932D26B6DDD100279C55 /* SwiftySyncNative-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftySyncNative-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				3E1C06CD26B6D2C000C6A7A2 /* main.swift */,
+				3EBB47BB26B94C8100148112 /* NativeClient.swift */,
 			);
 			path = SwiftySyncNative;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E1C06CE26B6D2C000C6A7A2 /* main.swift in Sources */,
+				3EBB47BC26B94C8100148112 /* NativeClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
