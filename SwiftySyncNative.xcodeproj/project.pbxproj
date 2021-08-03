@@ -52,7 +52,7 @@
 
 /* Begin PBXFileReference section */
 		3E1C06CA26B6D2C000C6A7A2 /* SwiftySyncNative */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftySyncNative; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E1C06CD26B6D2C000C6A7A2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3E1C06CD26B6D2C000C6A7A2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../main.swift; sourceTree = "<group>"; };
 		3EBB478526B8705700148112 /* libboost_math_c99f.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_math_c99f.a; path = lib/libboost_math_c99f.a; sourceTree = "<group>"; };
 		3EBB478626B8705700148112 /* libboost_coroutine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_coroutine.a; path = lib/libboost_coroutine.a; sourceTree = "<group>"; };
 		3EBB478726B8705700148112 /* libCodable.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCodable.a; path = lib/libCodable.a; sourceTree = "<group>"; };
